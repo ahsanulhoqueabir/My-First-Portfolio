@@ -104,6 +104,9 @@ font-family: 'Yatra One', cursive;
 	font-family: 'Yatra One', cursive;
 }
 /* Right side style */
+.bodyright{
+	background-color:#E0F0E3;
+}
 .contact{
 	margin: 20px;
 	padding-left:30px;
