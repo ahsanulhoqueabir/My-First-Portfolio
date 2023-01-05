@@ -1,0 +1,142 @@
+/* font-family: 'Aldrich', sans-serif;
+font-family: 'Blinker', sans-serif;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Satisfy', cursive;
+font-family: 'Staatliches', cursive;
+font-family: 'Yatra One', cursive;
+*/
+
+*{
+	margin: 0;
+}
+
+.mainContainer{
+	display: flex;
+	
+}
+.bodyleft{
+	width: 60%;
+	background: #F8F8FF;
+
+}
+.Heading{
+	height:180px;
+	border-left: 50px solid gray;
+	padding-top: 100px;
+	padding-left: 25px;
+	font-size: 1.8rem;
+	font-weight: 800;
+}
+.Name{
+	height:180px;
+	border-left: 60px solid teal;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	padding-top:30px;
+	background: cadetblue;
+}
+.Name h2{
+	font-size:3rem;
+	display:flex;
+	align-items: top;
+}
+.ahsanul{
+	letter-spacing: 3px;
+	word-spacing:15px;
+	color:white;
+	mix-blend-mode: overlay;
+	text-shadow: 0 5px 10px rgba(0,0,0,1);
+}
+.Name p{
+	position: absolute;
+	left: 200px;
+	top: 468px;
+	font-size:25px;
+	
+}
+.nameflex{
+	display: flex;
+}
+.nameflex >img{
+	height: 150px;
+	width: 250px;
+}
+.aboutme{
+	border-left:50px solid gray;
+	font-size: 25px;
+	line-height: 30px;
+	padding: 30px;
+	padding-left: 25px;
+	padding-right: 40px;
+	text-align: justify;
+	letter-spacing: 2px;
+	background: #F8F8FF;
+	
+}
+.education{
+	border-left:50px solid gray;
+	padding: 30px;
+	padding-left: 25px;
+	padding-right: 40px;
+}
+.edu-timeline{
+	margin-left: 14px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.edu-desc{
+	padding-left: 25px;
+	padding-bottom: 30px;
+	border-left: 6px solid teal;
+	border-radius: 10px;
+}
+.edu-desc h1{
+	font-family: 'Yatra One', cursive;
+}
+.edu-desc h2{
+	font-family: 'Satisfy', cursive;
+}
+.edu-desc h3{
+	font-family: 'Yatra One', cursive;
+}
+/* Right side style */
+.contact{
+	margin: 20px;
+	padding-left:30px;
+	padding-top: 50px;
+	font-size: 25px;
+	line-height:40px;
+}
+.contact h2{
+	padding-bottom:30px;
+	letter-spacing: 3px;
+}
+hr{
+	margin-right: 20px;
+}
+.social{
+	margin: 20px;
+	padding-left:30px;
+	padding-top: 50px;
+	font-size: 25px;
+	line-height:40px;
+}
+.social h2{
+	padding-bottom:30px;
+	letter-spacing: 3px;
+}
+.interest{
+	margin-top: 35px;
+	margin-left: 30px;
+}
+.int-value{
+	margin: 20px;
+	padding-left:30px;
+	padding-top: 50px;
+	font-size: 25px;
+	line-height:40px;
+}
