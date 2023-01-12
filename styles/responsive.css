@@ -1,0 +1,81 @@
+.hide{
+	display: none;
+}
+@media screen and (max-width:576px){
+	.mainContainer{
+		flex-direction:column;
+	}
+	.bodyleft{
+		width: 100%;
+	}
+	.Heading{
+		border: none;
+		font-size: 1.5em;
+		height:80px;
+		padding: 50px 0 0 10px;
+	}
+	.ahsanul{
+		text-align: right;
+	}
+	.Name p{
+		position: absolute;
+		left: 175px;
+		top: 395px;
+		font-size:17px;
+	}
+	.Name{
+		height:100%;
+		border: none;
+	}
+	.Name h2{
+		font-size:1.5em;
+		padding:0px 0px 20px 10px;
+	}
+	.nameflex{
+		display: flex;
+		flex-direction: column-reverse;
+		padding: 20px 10px 20px 0;
+	}
+	.aboutme{
+		border: none;
+		font-size: 17px;
+		line-height: 20px;
+		padding: 20px;
+	}
+	.education{
+		border: none;
+		padding: 20px;
+	}
+	.edu-desc{
+		font-size: 14px;
+		padding: 0px 0 0 20px;
+	}
+	fieldset{
+		border: 3px ridge #b8d8be;
+	}
+	.contact{
+		padding: 10px 10px;
+		font-size: 20px;
+		line-height:40px;
+	}
+	.social{
+		padding: 10px;
+		font-size: 20px;
+	}
+	.fa-brands,.fas{
+		font-size: 15px;
+	}
+	.interest{
+		margin-left: 0px;
+	}
+	.int-value{
+		margin: 20px;
+		padding:20px;
+		font-size: 20px;
+		line-height:30px;
+	}
+	
+}
+@media screen and (min-width:577px) and (max-width:992px){
+	
+}	
